@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter</title>
+</head>
+
+<body>
+    <div>
+        <div id="filter_site">
+
+            <label for="fiter_site">Site</label>
+            <select id="site">
+                <option>Goma</option>
+                <option>Beni</option>
+                <option>Butembo</option>
+                <option>Bunia</option>
+            </select>
+        </div><br>
+
+        <div id="filter_status">
+            <label for="fiter_site">Status</label>
+            <select id="status">
+                <option>Spending</option>
+                <option>Sacces</option>
+                <option>Failed</option>
+            </select>
+        </div><br>
+
+        <div id="filter_paiement">
+            <label for="fiter_site">Paiement Mode</label>
+            <select id="paiement">
+                <option>Airtel Mony</option>
+                <option>Orange Many</option>
+                <option>Mpesa</option>
+            </select>
+        </div><br>
+        <div id="filter_Custcode">
+            <label for="">Custamer Code</label>
+            <input type="number" id="custcode">
+        </div><br>
+        <div id="filter_Custname">
+            <label for="">Custamer Name</label>
+            <input type="text" id="custname">
+        </div><br>
+        <div id="filter_date">
+            <label id="date">Date</label><br>
+            <label for="biginningdate">Biginning Date</label>
+            <input type="date" id="biginningdate"><br>
+            <label for="enddate">End Date</label>
+            <input type="date" id="enddate">
+        </div><br>
+        <div>
+            <form id="filter_colonne" action="" method="">
+
+                <label>Choice Colonns:</label><br>
+                <input type="checkbox" id="custcode">
+                <label for="">Cust name</label><br>
+                <input type="checkbox" id="custname">
+                <label for="">Paiement Mode</label><br>
+                <input type="checkbox" id="Paiement Mode">
+                <label for="">Account</label><br>
+                <input type="checkbox" id="Acoout">
+                <label for="">Choide colonne</label><br>
+                <input type="checkbox" id="custcode">
+                <label for="">Choice colonne</label><br>
+                <input type="checkbox" id="custcode">
+                <label for="">lcal;ljo</label>
+            </form>
+        </div><br>
+        <div id="filter_nbrligne">
+            <label for="">Nombre de lignes</label>
+            <input type="number" id="nbrligne">
+        </div><br>
+        <div>
+            <button id="btnvalidate"><a href="tableau.html">Validate</a></button>
+            <button id="btncancel">Cancel</button>
+        </div>
+    </div>
+</body>
+
+</html>
